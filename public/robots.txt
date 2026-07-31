@@ -1,6 +1,14 @@
 User-agent: *
 Allow: /
 
+# High-value crawl targets
+Allow: /#about
+Allow: /#skills
+Allow: /#projects
+Allow: /#services
+Allow: /#contact
+
+# AI and search crawler guidance
 User-agent: Googlebot
 Allow: /
 
