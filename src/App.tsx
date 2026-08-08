@@ -321,7 +321,7 @@ function App() {
           <span className="awakening-eye left" />
           <span className="awakening-eye right" />
         </div>
-        <p className="loader-kicker">Deadhydra // 2211</p>
+        <p className="loader-kicker">Deadhydra</p>
         <p className="loader-title">The beast awakens</p>
         <p className="loader-status">{sceneReady ? 'Eyes open. Enter carefully.' : 'Stirring beneath the surface…'}</p>
       </div>
@@ -333,7 +333,7 @@ function App() {
       <header className="topbar">
         <a className="brand" href="#home" onClick={closeMenu} aria-label="Deadhydra, back to home">
           <span className="brand-sigil" aria-hidden="true">DH</span>
-          <span>DEADHYDRA<small>2211</small></span>
+          <span>DEADHYDRA</span>
         </a>
         <nav className={menuOpen ? 'nav-open' : ''} aria-label="Primary navigation">
           <a href="#about" onClick={closeMenu}>Lore</a>
@@ -385,7 +385,7 @@ function App() {
             </div>
           </motion.div>
           <div className="creature-label" aria-hidden="true">
-            <span>SPECIMEN 2211</span>
+            <span>SPECIMEN</span>
             <i />
             <span>ACTIVE / PREDATORY</span>
           </div>
@@ -422,7 +422,7 @@ function App() {
                 <div><dt>Discipline</dt><dd>Static Web / AI / Infrastructure</dd></div>
                 <div><dt>Status</dt><dd className="toxic">Open to global work</dd></div>
               </dl>
-              <div className="lore-rings" aria-hidden="true"><i /><i /><i /><b>2211</b></div>
+              <div className="lore-rings" aria-hidden="true"><i /><i /><i /></div>
             </aside>
           </div>
         </SectionReveal>
@@ -585,7 +585,7 @@ function App() {
       </main>
 
       <footer>
-        <a className="brand footer-brand" href="#home"><span className="brand-sigil">DH</span><span>DEADHYDRA<small>2211</small></span></a>
+        <a className="brand footer-brand" href="#home"><span className="brand-sigil">DH</span><span>DEADHYDRA</span></a>
         <p>Fast sites. Clean code. No dead weight.</p>
         <p>© {new Date().getFullYear()} MD. Zayan Zakir.</p>
       </footer>
