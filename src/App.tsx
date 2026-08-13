@@ -416,6 +416,17 @@ function App() {
             </div>
             <aside className="lore-panel" aria-label="Personal details">
               <div className="panel-topline"><span>Field record</span><span>Identity verified</span></div>
+              <figure className="profile-figure">
+                <img
+                  src="/images/md-zayan-zakir.jpg"
+                  alt="Portrait of MD. Zayan Zakir, static website developer and technical SEO specialist"
+                  width={494}
+                  height={494}
+                  loading="lazy"
+                  decoding="async"
+                />
+                <figcaption>MD. Zayan Zakir</figcaption>
+              </figure>
               <dl>
                 <div><dt>Location</dt><dd>Jhenaidah, Khulna Division, Bangladesh</dd></div>
                 <div><dt>Languages</dt><dd>Bengali / English</dd></div>

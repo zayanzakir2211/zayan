@@ -489,6 +489,31 @@ blockquote {
   text-transform: uppercase;
 }
 
+.profile-figure {
+  margin: 18px 0 0;
+  border: 1px solid rgba(178, 205, 163, 0.18);
+  background: linear-gradient(140deg, rgba(20, 26, 19, 0.95), rgba(8, 10, 8, 0.98));
+  padding: 10px;
+}
+
+.profile-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(178, 205, 163, 0.16);
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+.profile-figure figcaption {
+  margin-top: 8px;
+  color: #788272;
+  font-family: var(--mono);
+  font-size: 7px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
 .lore-panel dl { position: relative; z-index: 2; margin: 24px 0 0; }
 
 .lore-panel dl div {
