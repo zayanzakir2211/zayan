@@ -384,6 +384,17 @@ function App() {
               ))}
             </div>
           </motion.div>
+          <div className="hero-portrait-wrap" aria-label="Portrait of MD. Zayan Zakir">
+            <img
+              className="hero-portrait"
+              src="/images/md-zayan-zakir.jpg"
+              alt="Portrait of MD. Zayan Zakir, static website developer and technical SEO specialist"
+              width={520}
+              height={520}
+              loading="eager"
+              decoding="async"
+            />
+          </div>
           <div className="creature-label" aria-hidden="true">
             <span>SPECIMEN</span>
             <i />

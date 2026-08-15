@@ -362,6 +362,29 @@ a {
   letter-spacing: 0.08em;
 }
 
+.hero-portrait-wrap {
+  position: absolute;
+  right: clamp(38px, 4vw, 80px);
+  top: 50%;
+  display: block;
+  width: min(32vw, 520px);
+  max-width: 520px;
+  transform: translateY(-52%);
+  z-index: 0;
+}
+
+.hero-portrait {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(178, 205, 163, 0.18);
+  background: rgba(9, 12, 9, 0.8);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  filter: saturate(0.9) contrast(1.05) brightness(0.9);
+}
+
 .creature-label {
   position: absolute;
   right: 4.5vw;
@@ -927,6 +950,7 @@ footer p:last-child { text-align: right; }
   .hero { min-height: 820px; align-items: flex-end; padding: 105px 20px 90px; }
   .hero-vignette { background: linear-gradient(0deg, #050505 0%, rgba(5, 5, 5, 0.93) 35%, rgba(5, 5, 5, 0.16) 67%, rgba(5, 5, 5, 0.72) 100%); }
   .hero-content { width: 100%; }
+  .hero-portrait-wrap { display: none; }
   .hero-kicker { max-width: 260px; font-size: 8px; line-height: 1.6; }
   .hero h1 { font-size: clamp(58px, 20vw, 86px); }
   .hero-lede { max-width: 580px; margin-top: 23px; font-size: 13px; line-height: 1.65; }
